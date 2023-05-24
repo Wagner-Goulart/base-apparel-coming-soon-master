@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+[Solution URL here](git@github.com:Wagner-Goulart/base-apparel-coming-soon-master.git)
 
 ### Built with
 
