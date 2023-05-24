@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="/src/css/reset.css">
+  <link rel="stylesheet" href="/src/css/styles.css">
+  <link rel="stylesheet" href="/src/css/responsive.css">
+</head>
+
+<body>
+  <main class="container">
+    <header class="header">
+      <img src="./src/images/logo.svg" alt="Logo">
+    </header>
+    <div class="container-info">
+      <h1 class="title"><span>We're</span> coming soon</h1>
+      <p>
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form class="form" action="#">
+        <input type="email" name="email" id="input-email" placeholder="Email Addres">
+        <img class="error-image" src="./src/images/icon-error.svg" alt="Erro image">
+        <img class="confirm-btn" src="./src/images/icon-arrow.svg" alt="Arrow">
+        <p class="error-message">Favor inserir um email válido</p>
+      </form>
+    </div>
+    <footer class="footer">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/Wagner-Goulart">Wagner-Goulart</a>.
+      </p>
+    </footer>
+  </main>
+  <div class="hero">
+    <picture>
+      <source media="(min-width:768px )" srcset="./src/images/hero-desktop.jpg">
+      <img src="./src/images/hero-mobile.jpg" alt="Hero">
+    </picture>
+  </div>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
